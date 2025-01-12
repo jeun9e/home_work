@@ -1,4 +1,4 @@
-# Задача 1
+# Задача 1 наибольшее число
 def large(a,b):
     if a > b:
         print(a)
@@ -6,8 +6,8 @@ def large(a,b):
         print(b)
 large(150,20)
 
-# Задача 2
 
+# Задача 2 разница в 135
 def Zad2(a,b):
     if abs(a-b) == 135:
         print('Yes')
@@ -17,7 +17,7 @@ def Zad2(a,b):
 Zad2(0,135)
 
 
-# Задача 3
+# Задача 3 название сезона
 def zad3(month):
     if month == 12 or month == 1 or month == 2:
         print('Winter')
@@ -30,7 +30,7 @@ def zad3(month):
 zad3(9)
 
 
-# Задача 4
+# Задача 4 числа больше 10
 def zad4(a,b,c):
     if a>10 and b>10 and c>10:
         print('Yes')
@@ -39,7 +39,7 @@ def zad4(a,b,c):
 zad4(11,12,30)
 
 
-#Задача 5
+#Задача 5 количество положительных чисел
 def zad5(a: list):
     sum = 0
     for i in a:
@@ -48,8 +48,8 @@ def zad5(a: list):
     return sum
 print(zad5([1,-2,3,-4,5]))
 
-# Задача 6
-
+# Задача 6 вывести в количество дней
 def zad6(a: int,b: int):
     return (a*12*29)+(b*29)
 print(zad6(0,10))
+
