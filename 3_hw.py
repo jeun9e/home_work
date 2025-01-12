@@ -21,11 +21,11 @@ Zad2(0,135)
 def zad3(month):
     if month == 12 or month == 1 or month == 2:
         print('Winter')
-    if month == 3 or month == 4 or month == 5:
+    elif month == 3 or month == 4 or month == 5:
         print('Spring')
-    if month in range (6,9):
+    elif month in range (6,9):
         print('Summer')
-    if month in range (9,12):
+    elif month in range (9,12):
         print('Autumn')
 zad3(9)
 
@@ -41,11 +41,11 @@ zad4(11,12,30)
 
 #Задача 5
 def zad5(a: list):
-    rez = 0
+    sum = 0
     for i in a:
         if i > 0:
-            rez = rez + 1
-    return rez
+            sum = sum + 1
+    return sum
 print(zad5([1,-2,3,-4,5]))
 
 # Задача 6
