@@ -54,7 +54,7 @@ class Elements:
         self.loc = loc
 
     def click(self):
-        print('Клик по кнопке' + self.text)
+        print('Клик по кнопке: ' + self.text)
 
 
 one = Elements ('TextBox', 'Кнопка', ' ')
@@ -70,3 +70,22 @@ nine = Elements ('Dynamic Properties', 'Кнопка', '')
 print(one.type, one.text + '\n', two.type, two.text + '\n', three.type, three.text)
 nine.click()
 one.click()
+
+#Задача 4. Машина
+class Car:
+    def __init__(self, color, type, year):
+        self.color = color
+        self.type = type
+        self.year = year
+
+    def start(self):
+        print('Автомобиль заведен')
+
+    def stop(self):
+        print('Автомобиль заглушен')
+
+    def display(self):
+        # print(f"Марка:{self.color}, Model: {self.type}, Year: {self.year}")
+        print('Цвет:' + self.color, 'Модель:' + self.type, 'Год выпуска:' + self.year)
+a = Car ('Blue', 'BMW', '2022')
+a.display()
