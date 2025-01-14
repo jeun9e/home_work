@@ -57,15 +57,15 @@ class Elements:
         print('Клик по кнопке: ' + self.text)
 
 
-one = Elements ('TextBox', 'Кнопка', ' ')
-two = Elements ('Check Box', 'Кнопка', '')
-three = Elements ('Radio Button', 'Кнопка', '')
-four = Elements ('Web Tables', 'Кнопка', '')
-five = Elements ('Buttons', 'Кнопка', '')
-six = Elements ('Links', 'Кнопка', '')
-seven = Elements ('Broken Links - Images', 'Кнопка', '')
-eight = Elements ('Upload and Dowload', 'Кнопка', '')
-nine = Elements ('Dynamic Properties', 'Кнопка', '')
+one = Elements ('TextBox', 'Кнопка:', ' ')
+two = Elements ('Check Box', 'Кнопка:', '')
+three = Elements ('Radio Button', 'Кнопка:', '')
+four = Elements ('Web Tables', 'Кнопка:', '')
+five = Elements ('Buttons', 'Кнопка:', '')
+six = Elements ('Links', 'Кнопка:', '')
+seven = Elements ('Broken Links - Images', 'Кнопка:', '')
+eight = Elements ('Upload and Dowload', 'Кнопка:', '')
+nine = Elements ('Dynamic Properties', 'Кнопка:', '')
 
 print(one.type, one.text + '\n', two.type, two.text + '\n', three.type, three.text)
 nine.click()
@@ -85,7 +85,6 @@ class Car:
         print('Автомобиль заглушен')
 
     def display(self):
-        # print(f"Марка:{self.color}, Model: {self.type}, Year: {self.year}")
         print('Цвет:' + self.color, 'Модель:' + self.type, 'Год выпуска:' + self.year)
 a = Car (' Blue ', ' BMW ', ' 2022 ')
 a.display()
