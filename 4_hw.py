@@ -1,5 +1,5 @@
 # Задача 1. Площадь и периметр прямоугольника
-class rectangle:
+class Rectangle:
     def __init__(self, wid, lenght):
         self.wid = wid
         self.lenght = lenght
@@ -11,8 +11,8 @@ class rectangle:
         return self.wid*2+self.lenght*2
 
 
-Area = rectangle(4, 10)
-Perim = rectangle (3, 10)
+Area = Rectangle(4, 10)
+Perim = Rectangle (3, 10)
 
 print(Area.square())
 print(Perim.perimeter())
