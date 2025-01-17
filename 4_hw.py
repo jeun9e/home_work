@@ -86,7 +86,7 @@ class Car:
 
     def display(self):
         print('Цвет:' + self.color, 'Модель:' + self.type, 'Год выпуска:' + self.year)
-my_car = Car (' Blue ', ' BMW ', ' 2022 ')
+my_car = Car ('Blue', 'BMW', '2022')
 my_car.display()
 my_car.start()
 
