@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 
 # поиск элемента
 
-
 def find_elements():
+
     driver = webdriver.Chrome()
     driver.get("https://saucedemo.com/")
 
