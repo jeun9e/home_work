@@ -13,9 +13,9 @@ def find_elements():
     button = driver.find_element(By.CSS_SELECTOR, '#login-button')
 
     if icon is None and user is None and button is None:
-            print('Элементы не найден')
+        print('Элементы не найден')
 
     else:
-             print('Элементы найдены')
+        print('Элементы найдены')
 
 find_elements()
